@@ -1,0 +1,98 @@
+body {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background:url('../img/background.jpg');
+    font-family: "Roboto", sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .left {
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 18px;
+  }
+  .left img {
+    width: 85px;
+  }
+  .left div {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .mid {
+    /* border: 2px solid green; */
+    display: block;
+    width: 56%;
+    margin: 18px auto;
+  }
+  .right {
+    /* border: 2px solid yellow; */
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 18px;
+  }
+  .navbar {
+    display: inline-block;
+  }
+  .navbar li {
+    display: inline-block;
+  }
+  .navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 32px 39px;
+    font-size: 20px;
+  }
+  .btn {
+    border: 2px solid gray;
+    border-radius: 10px;
+    margin: 2px 5px;
+    padding: 3px 8px;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+  }
+  .btn:hover {
+    background-color: gray;
+  }
+  .container {
+    border: 2px solid white;
+    margin: 176px 82px;
+    padding: 84px 29px;
+    width: 31%;
+    
+    border-radius: 12px;
+    margin-left: 880px;
+  }
+  .form input
+  {
+       display: block;
+       width : 225px;
+       margin: 6px auto;
+       padding : 2px;
+       text-align: center;
+       font-family: "Roboto", sans-serif;
+       border-radius: 7px;
+
+  }
+  .container button{
+        display: block;
+        width: 23%;
+        margin: 5px auto;
+        
+        font-family: "Roboto", sans-serif;
+  }
+  .container h1{
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    margin-bottom: 23px;
+  }
+  .navbar a:hover{
+              color: #665c5c;
+
+
+  }
